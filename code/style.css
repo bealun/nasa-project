@@ -1,4 +1,33 @@
 body {
-  background: rgb(17, 17, 17);
+  background: rgb(39, 39, 39);
   color: white;
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+}
+
+#nasaToday {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#todaysDate {
+  font-size: 50px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+
+#nasaImg {
+  width: 100%;
+}
+
+#explain {
+  font-size: 18px;
+}
+
+#author {
+  font-style: italic;
 }

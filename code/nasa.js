@@ -13,15 +13,12 @@ fetch(nasaAPI)
     return response.json()
 
     .then(json => {
-      console.log(json)
       todayDate = json.date
-      console.log(date)
       todayQuestion = json.explanation
-      console.log(question)
       todayWriter = json.copyright
-      console.log(writer)
       todayImage = json.url
 
+      // HTML DOM
       date.innerHTML = todayDate
       question.innerHTML = todayQuestion
       writer.innerHTML = todayWriter
